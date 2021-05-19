@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.username {
+    font-size: medium;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.sidenav-menu {
+    align-content: space-between;
+    flex: 1;
+    height: 100vh;
+    background-color: black;
+}
+
+.sidenav-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidenav-playlist {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 5;
+    height: 100vh;
+    /* background-color: black; */
+    overflow: auto;
+    /* color: white; */
+}
+
+.track-name .playlist-name {
+    font-size: larger;
+}
+
+.track-name .playlist-name li {
+    color: red
+}
